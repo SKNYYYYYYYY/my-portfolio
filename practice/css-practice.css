@@ -1,0 +1,149 @@
+body {
+  background-color: hsl(105, 55%, 96%);
+  max-width: 600px;
+  margin: 3% auto;
+  font-family: 'Segoe UI', Arial, sans-serif
+}
+h1 {
+  color: #2a52be;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  border: 2px solid black;
+  /* padding: 10px */
+}
+.highlight {
+  color: #00796b;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: aqua;
+  transition: backgroud-color 0.8s ease
+}
+
+p {
+  background-color: #e0f7fa;
+
+}
+.pages {
+  padding: 15px;
+  box-shadow: 12px 12px 5px rgba(0, 240, 248, 0.1);
+  border-radius: 8px
+}
+.pages:hover {
+  background-color: #f1f8e9 ;
+}
+.highlight:hover {
+  background-color: #b2ebf2;
+  cursor: pointer;
+}
+h3 {
+  border: 0.5px solid blue;
+}
+
+span {
+  display: inline-block;
+  background: #ffe066;
+  padding: 8px 16px;
+  margin: 4px;
+  border-radius: 8px
+}
+.hidden-text {
+  visibility: hidden;
+}
+
+.text {
+  text-decoration: underline;
+  line-height: 1.6;
+  text-align: justify
+}
+
+ul li:nth-child(1){
+  list-style-type: upper-roman;
+  padding-left: 32px ;
+  color: #00796b;
+}
+
+.box-relative {
+  position: relative;
+  left: 20px;
+  top: 10px;
+  background: #f9c74f;
+  padding: 10px
+}
+.box-absolute {
+  position: absolute;
+  left: 20px;
+  top: 10px;
+  background: #5a4411;
+  padding: 10px;
+    z-index: 2
+
+}
+.box-fixed {
+  position: fixed;
+  left: 40px;
+  top: 10px;
+  background: #3b2a00;
+  padding: 10px;
+}
+.box-static {
+  position: static;
+  left: 60px;
+  top: 10px;
+  background: #3b2a00;
+  padding: 10px
+}
+
+.transparent-img {
+  width: 70%;
+  height: 40%;
+  opacity: 0.3
+}
+
+.transparent-bg {
+  background: rgba(77, 169, 245, 0.1); /* 0.3 = 30% visible */
+  padding: 16px;
+  margin-top: 16px;
+}
+
+.overflow-box {
+  width: 200px;
+  height: 60px;
+  background: #f94144 ;
+  overflow: scroll;
+}
+
+.vertical-center {
+  height: 40px;
+  line-height: 50px;
+  background: #ffdac1;
+  text-align: center;
+}
+
+.fancy-btn {
+  background: #00796b;
+}
+.fancy-btn:hover {
+  background: #5af3e1;
+}
+.fancy-btn:active {
+  background: #00ffe1;
+}
+
+.fancy-input:focus {
+  background: #fff4da;
+}
+
+.decorated-text::before {
+  content: "🧾"
+}
+.decorated-text::first-letter {
+  font-size: 2em;
+  color: #457b9d;
+  float: left;
+}
+.decorated-text::first-line {
+  color: #5af3e1;
+  font-weight: bold;
+}
+
